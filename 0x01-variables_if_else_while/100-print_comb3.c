@@ -10,12 +10,14 @@ int main(void)
 	short int num;
 	short int val;
 
-	for (num = 0; num < 100; num++)
+	for (num1 = 0; num1 < 9; num1++)
 	{
-		val = num + '48'
-		putchar(val);
-		if (num < 99)
+		for (num2 = num1 + 1; num2 < 10, num2++)
 		{
+			putchar((num2 % 10) + '0');
+			putchar((num2 % 10) + '0');
+			if (num1 == 8 && num2 ==9)
+				continue;
 			putchar(',');
 			putchar(' ');
 		}
