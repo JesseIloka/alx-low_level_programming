@@ -10,10 +10,10 @@ int main(void)
 	char a;
 	int b;
 	long int c;
-	long  d;
+	long long d;
 	float e;
 
-	scanf("%c, %d, %li, %li, %f", &a, &b, &c, &d, &e);
+	scanf("%c, %d, %li, %lli, %f", &a, &b, &c, &d, &e);
 
 	printf("Size of char: %lu byte(s)\n", sizeof(a));
 	printf("Size of int: %lu byte(s)\n", sizeof(b));
