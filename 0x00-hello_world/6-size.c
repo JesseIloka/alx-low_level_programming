@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	char chart
-	int intt
-	long int longintt
-	long long int longlongintt
-	float floatt
+	char chart;
+	int intt;
+	long int longintt;
+	long long int longlongintt;
+	float floatt;
 
 	printf("Size of char: %s byte(s)\n", sizeof(chart));
 	printf("Size of int: %d byte(s)\n", sizeof(intt));
