@@ -7,8 +7,7 @@
  */
 int main(void)
 {
-	short int num;
-	short int val;
+	int num1, num2
 
 	for (num1 = 0; num1 < 9; num1++)
 	{
