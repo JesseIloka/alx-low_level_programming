@@ -1,6 +1,6 @@
 #include <unistd.h>
 /**
- * main - prints the standard error sandwiched around the standard output
+ * main - prints with the 'write' function.
  *
  * Return: Always 1 (Success)
  */
