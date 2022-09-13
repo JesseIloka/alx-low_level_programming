@@ -2,6 +2,6 @@
 
 int main(void)
 {
-	wtire("_putchar");
+	write("_putchar");
 	return (0);
 }
