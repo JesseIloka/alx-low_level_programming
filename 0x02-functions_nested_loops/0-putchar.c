@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /*
- * main - print "_putchar with putchar"
+ * main - print "_putchar with putchar commands"
  *
- * return 0
+ * return: 0
  */
 int main(void)
 {
