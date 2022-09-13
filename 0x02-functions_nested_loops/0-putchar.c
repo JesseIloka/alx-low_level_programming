@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include <std.io>
 
 int main(void)
 {
-	putchar('0');
+	wtire("_putchar");
 	return (0);
 }
