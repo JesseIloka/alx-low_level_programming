@@ -7,7 +7,8 @@
  */
 int main(void)
 {
-	int count, fib1 = 0, fib2 = 1, sum;
+	int count;
+	unsigned long int fib1 = 0, fib2 = 1, sum;
 
 	for (count = 1; count <= 50; count++)
 	{
@@ -20,7 +21,7 @@ int main(void)
 		if (count == 49)
 			printf("\n");
 		else
-			printf("\n");
+			printf(", ");
 	}
 	return (0);
 }
