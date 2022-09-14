@@ -9,7 +9,7 @@ int main(void)
 {
 	int count, fib1 = 0, fib2 = 1, sum;
 
-	for (count = 1, count <= 50; count++)
+	for (count = 1; count <= 50; count++)
 	{
 		sum = fib1 + fib2;
 		printf("%d", sum);
