@@ -3,7 +3,7 @@
 /**
  * main - print the alphabets
  *
- * Return: Always 0
+ * Return: Always void
  */
 void print_alphabet(void)
 {
@@ -12,9 +12,4 @@ void print_alphabet(void)
 		putchar(letter);
 	putchar('\n');
 	return;
-}
-int main(void)
-{
-	print_alphabet();
-	return (0);
 }
