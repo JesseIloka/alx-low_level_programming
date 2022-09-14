@@ -2,9 +2,9 @@
 
 /**
  * print_sign - print if number is greater, lesser or equal to zero
- * @i: variable of the integer
+ * @n: variable of the integer
  *
- * Return : 1 if positive, -1 if negatvie and 0 otherwise
+ * Return: 1 if positive, -1 if negatvie and 0 otherwise
  */
 int print_sign(int n)
 {
