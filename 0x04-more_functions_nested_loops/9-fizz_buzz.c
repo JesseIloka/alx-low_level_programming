@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/**main - the fizz buzz program
+/**
+ * main - the fizz buzz program
  * print fizz for multiples of 3
  * buzz for multiples of 5
  * and fizbuzz for multiples of both 3 and 5
