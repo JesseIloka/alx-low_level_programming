@@ -5,7 +5,7 @@
  * @dest: The first part of the string
  * @src: The socong part of the string
  *
- * Returns: dest + src as dest
+ * Return: dest + src as dest
  */
 char *_strcat(char *dest, char *src)
 {
@@ -14,7 +14,7 @@ char *_strcat(char *dest, char *src)
 	while (dest[index++])
 		dest_len++;
 
-	for (index = 0; src[index]; index ++)
+	for (index = 0; src[index]; index++)
 		dest[dest_len++] = src[index];
 
 	return (dest);
