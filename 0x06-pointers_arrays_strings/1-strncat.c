@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - conacatenates two stings uising n number of bytes
+ * *_strncat - conacatenates two stings uising n number of bytes
  * @dest: The string to be appended to
  * @src: String to append to dest
  * @n: number of bytes
