@@ -21,6 +21,7 @@ char *cap_string(char *str)
 				continue;
 			}
 		}
-		index++
+		index++;
 	}
+	return (str);
 }
