@@ -6,14 +6,14 @@
  *
  * Return: uppercase string
  */
-char string_toupper(char *str)
+char string_toupper(char *)
 {
 	int index = 0;
 
-	while (str[index])
+	while (*[index])
 	{
-		if (str[index] >= 'a' && str[index] <= 'z')
-			str[index] -= 32;
+		if (*[index] >= 'a' && *[index] <= 'z')
+			*[index] -= 32;
 		index++;
 	}
 	return (str);
