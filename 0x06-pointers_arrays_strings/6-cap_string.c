@@ -18,7 +18,6 @@ char *cap_string(char *str)
 			{
 				index++;
 				str[index] -= 32;
-				continue;
 			}
 		}
 		index++;
