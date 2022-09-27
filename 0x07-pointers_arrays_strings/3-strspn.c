@@ -1,4 +1,4 @@
-#iclude "main.h"
+#include "main.h"
 
 /**
  * _strspn - gets the length of a prefix substring
@@ -17,11 +17,11 @@ unsigned int _strcpm(char *s, char *accept)
 	{
 		for (index = 0; accept[index]; index++)
 		{
-			if (*s == str[index])
+			if (*s == accept[index])
 				cnt++;
+			else if (accept[index + 1] == '\0')
+				return (cnt);
 		}
-		else if (accept[index + 1] == '\0')
-			return (cnt);
 	}
 	s++;
 	return (cnt);
