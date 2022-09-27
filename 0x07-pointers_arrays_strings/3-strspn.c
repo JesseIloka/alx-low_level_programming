@@ -11,13 +11,14 @@
 unsigned int _strcpm(char *s, char *accept)
 {
 	int index;
-	char *str = s, *a = accept;
-	unsigned int cnt;
+	unsigned int cnt = 0;
 
-	for (index = 0; a[index] >= '\0'; index++)
+	while (*s)
 	{
-		if (a[index] == str[index])
-			cnt++;
-	}
-	return (ret);
+		for (index = 0; a[index] >= '\0'; index++)
+		{
+			if (a[index] == str[index])
+				cnt++;
+		}
+	return (cnt);
 i}
