@@ -15,10 +15,14 @@ unsigned int _strcpm(char *s, char *accept)
 
 	while (*s)
 	{
-		for (index = 0; a[index] >= '\0'; index++)
+		for (index = 0; accept[index]; index++)
 		{
-			if (a[index] == str[index])
+			if (*s == str[index])
 				cnt++;
 		}
+		else if (accept[index + 1] == '\0')
+			return (cnt);
+	}
+	s++;
 	return (cnt);
-i}
+}
