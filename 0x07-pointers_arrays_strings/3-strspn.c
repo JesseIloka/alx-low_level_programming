@@ -12,12 +12,12 @@ unsigned int _strcpm(char *s, char *accept)
 {
 	int index;
 	char *str = s, *a = accept;
-	char ret;
+	unsigned int cnt;
 
 	for (index = 0; a[index] >= '\0'; index++)
 	{
 		if (a[index] == str[index])
-			ret[index] =[index];
+			cnt++;
 	}
 	return (ret);
-}
+i}
