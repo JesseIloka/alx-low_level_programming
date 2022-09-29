@@ -14,7 +14,7 @@ int find_root(int num, int root)
 		return (root);
 	if (root == (num / 2))
 		return (-1);
-	return (find_root(num, root _ 1));
+	return (find_root(num, root - 1));
 }
 
 /**
