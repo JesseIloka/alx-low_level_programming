@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * pow_recursion - returns the power of a number
+ * _pow_recursion - returns the power of a number
  * @x: the base number
  * @y: the index to be raised
  *
@@ -9,10 +9,12 @@
  */
 int _pow_recursion(int x, int y)
 {
+	int result = x;
 
 	if (y < 0)
-		return -1;
+		return (-1);
 	else if (y == 0)
-		return 1;
-	return (_pow_recursion(x, y - 1));
+		return (1);
+	result *= _pow_recursion(x, y - 1);
+	return (result);
 }
