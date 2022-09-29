@@ -45,7 +45,7 @@ int check(char *s, int len, int index)
 int is_palindrome(char *s)
 {
 	int index = 0;
-	int len = length(S);
+	int len = length(s);
 
 	if (!(*s))
 		return (1);
