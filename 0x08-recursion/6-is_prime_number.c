@@ -11,10 +11,10 @@
 int prime_factor(int prime, int factor)
 {
 	if ((prime % factor) == 0)
-		return (1);
-	if (factor == (prime / 2))
 		return (0);
-	return prime_factor(prime, factor + 1);
+	if (factor == (prime / 2))
+		return (1);
+	return (prime_factor(prime, factor + 1));
 }
 /**
  * is_prime_number - find a prime number
@@ -26,6 +26,7 @@ int prime_factor(int prime, int factor)
 int is_prime_number(int n)
 {
 	int factor = 2;
+
 	if (n <= 1)
 		return (0);
 	return (prime_factor(n, factor));
