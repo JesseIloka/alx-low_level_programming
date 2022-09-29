@@ -72,7 +72,7 @@ char *postfix_match(char *str, char *postfix)
  */
 int wildcmp(char *s1, char *s2)
 {
-	if (*S2 == '*')
+	if (*s2 == '*')
 	{
 		iterate_wild(&s2);
 		s2 = postfix_match(s1, s2);
