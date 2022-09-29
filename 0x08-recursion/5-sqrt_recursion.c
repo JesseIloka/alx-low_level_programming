@@ -6,13 +6,13 @@
  * @num: numer to find the squareroot of.
  *
  * Return: if number has natural root, the square root
- * 	   if number does not have the narural root, -1.
+ *         if number does not have the narural root, -1.
  */
 int find_root(int num, int root)
 {
 	if ((root * root) == num)
 		return (root);
-	if (root == (num / 2))
+	if (root == num / 2)
 		return (-1);
 	return (find_root(num, root - 1));
 }
@@ -33,5 +33,5 @@ int _sqrt_recursion(int n)
 	if (n == 1)
 		return (1);
 
-	return (find_root(n, root + 1));
+	return (find_root(n, roott ));
 }
