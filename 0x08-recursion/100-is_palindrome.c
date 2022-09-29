@@ -4,7 +4,7 @@
  * length - returns lengt of string array.
  * @s: The string to measure
  *
- * Returns: Length of the string.
+ * Return: Length of the string.
  */
 int length(char *s)
 {
@@ -33,10 +33,11 @@ int check(char *s, int len, int index)
 		return (1);
 	if (s[index] == s[len - index - 1])
 		return (check(s, len, index + 1));
-	return(0);
+	return (0);
 }
 
-/** is_palindrome - check if string is palindrome
+/** 
+ * is_palindrome - check if string is palindrome
  * @s: the string to check if it is a palindrome
  *
  * Return: If s is palindrome; 1
