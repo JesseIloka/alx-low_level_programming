@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - print the minimum number of coins 
+ * main - print the minimum number of coins
  *        to make change for any amount
  * @argc: number of program arguments
  * @argv: array of pointers to the arguments
@@ -19,9 +19,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-
 	cents = atoi(argv[1]);
-
 	while (cents > 0)
 	{
 		coins++;
