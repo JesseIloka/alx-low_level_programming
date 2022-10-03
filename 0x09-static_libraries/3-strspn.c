@@ -8,7 +8,7 @@
  * Return: number of bytes in the initial segment of s
  * which consist only of bytes from accebt
  */
-unsigned int _strcpm(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	int index;
 	unsigned int cnt = 0;
