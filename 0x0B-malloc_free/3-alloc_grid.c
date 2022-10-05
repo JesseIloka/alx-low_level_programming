@@ -15,13 +15,13 @@ int **alloc_grid(int width, int height)
 	if (width <= 0 || height <= 0)
 		return (NULL);
 
-	int 2Drray = malloc(sizeof(int) * width * height);
+	int array2d = malloc(sizeof(int) * width * height);
 	int i, j;
 
 	for (i = 0; i < height; i++)
 	{
-		for (j = 0; j < widht; j++)
-			2Darray[i][j] = 0;
+		for (j = 0; j < width; j++)
+			array3d[i][j] = 0;
 	}
-	return (*2Darray);
+	return (*array2d);
 }
