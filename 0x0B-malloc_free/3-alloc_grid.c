@@ -12,11 +12,11 @@
  */
 int **alloc_grid(int width, int height)
 {
-	if (width <= 0 || height <= 0)
-		return (NULL);
-
 	int array2d;
 	int i, j;
+
+	if (width <= 0 || height <= 0)
+		return (NULL);
 
 	array2d = malloc(sizeof(int) * width * height);
 
