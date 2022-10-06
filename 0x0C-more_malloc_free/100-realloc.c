@@ -17,3 +17,12 @@ void *_realloc(void *ptr, unsigned int old_size __attribute__((unused)), unsigne
 		return (*ptr);
 	if (ptr == NULL)
 		return (malloc(new_size));
+	if (new_size == 0 || ptr != NULL)
+		return (free(ptr));
+	if (new_size > old_size)
+		return (NULL);
+	mem = malloc(new_size + old_size);
+	if (mem = NULL)
+		return (NULL);
+	free(ptr);
+}
