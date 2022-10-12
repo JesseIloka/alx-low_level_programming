@@ -13,12 +13,3 @@ void print_name(char *name, void (*f)(char *))
 		return;
 	(*f)(name);
 }
-/**
- * f - print function
- * @s - name characters
- */
-void f(char *s)
-{
-	printf("Hello my name is %s.", s);
-}
-
