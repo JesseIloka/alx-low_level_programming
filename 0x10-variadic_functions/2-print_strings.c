@@ -4,7 +4,7 @@
 
 /**
  * print_strings - print stings
- * @seprator: seperated the strings
+ * @seperator: seperated the strings
  * @n: number of arguments passed to function
  */
 void print_strings(const char *seperator, const unsigned int n, ...)
@@ -13,8 +13,7 @@ void print_strings(const char *seperator, const unsigned int n, ...)
 	char *str;
 	va_list ap;
 
-	va_start (ap, n);
-
+	va_start(ap, n);
 
 	for (i = 0; i < n; i++)
 	{
@@ -23,7 +22,7 @@ void print_strings(const char *seperator, const unsigned int n, ...)
 			printf("(nil)");
 		else
 			printf("%s", str);
-		if (i != (n -1) && seperator != NULL)
+		if (i != (n - 1) && seperator != NULL)
 			printf("%s", seperator);
 	}
 	printf("\n");
